@@ -12,9 +12,7 @@ setup(
     description='',
     author='',
     author_email='',
-    install_requires=[
-        "pecan",
-    ],
+    install_requires=open('requirements.txt').readlines(),
     test_suite='hello',
     zip_safe=False,
     include_package_data=True,
